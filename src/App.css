@@ -1,0 +1,160 @@
+.App {
+  font-family: sans-serif;
+  background-color: #fff9bc;
+}
+
+/* .header {
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+} */
+
+.center-space, .right-space {
+  flex: 1;
+}
+
+.logo img {
+   width: 700px;
+}
+
+.text {
+  text-align: center;
+}
+
+.text h1 {
+  margin: 5px 0;
+}
+
+.text p {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.left-section, .right-section {
+  flex: 0.7;
+  height: '300px';
+}
+
+.left-section img {
+  max-width: 100%;
+  height: 200px;
+}
+
+.right-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* .spacer {
+  height: 500px; 
+} */
+
+.footer-1 {
+  color: rgb(12, 12, 12);
+  padding: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 30px;
+  }
+  
+  .logo img {
+    max-width: 150px; 
+  }
+}
+
+.left-section img {
+  width: 100%;
+  height: 80%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.right-section {
+  flex: 1;
+}
+
+.right-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-section li {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.motor-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.motor-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.motor-section p {
+  margin-top: 10px;
+}
+
+/* Add this CSS to your existing styles */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #ff0000; /* Red background color */
+  color: white; /* White text color */
+}
+
+.line {
+  border: 0;
+  border-top: 1px solid #bd0707;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+.toll-free {
+  display: inline-block;
+  margin-left: 5px;
+  color: white;
+}
+
+.icon {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+}
